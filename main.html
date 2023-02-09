@@ -10,7 +10,49 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-
+<form method="get">
+	<div>
+		<label for="name">Name*</label>
+		<input type="text" id="name" required>
+	</div>
+	<div>
+		<label for="email">Email*</label>
+		<input type="email" id="email" required>
+	</div>
+	<div><p>Gender*</p>
+		<input type="radio" id="male" required name="gen">
+		<label for="male">Male</label>
+		<input type="radio" id="female" required name="gen">
+		<label for="female">Female</label>
+		<input type="radio" id="other" required name="gen">
+		<label for="other">Other</label>
+	</div>
+	<div><p>Laptop Brands</p>
+		<input type="checkbox" id="apple">
+		<label for="apple">Apple</label>
+		<input type="checkbox" id="Asus">
+		<label for="Asus">Asus</label>
+		<input type="checkbox" id="HP">
+		<label for="HP">HP</label>
+	</div>
+	<div>
+		<label for="age">Age*</label>
+		<input type="number" id="age" required>
+	</div>
+	<div>
+		<label for="dob">DOB*</label>
+		<input type="date" id="dob" required>
+	</div>
+	<div>
+		<label for="pw">Password*</label>
+		<input type="password" id="pw" required>
+	</div>
+	<div>
+		<label id="portfolio">Portfolio</label>
+		<input type="url" id="portfolio">
+	</div>
+	<input type="submit" value="Submit">
+</form>
 </body>
 
 </html>
